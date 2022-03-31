@@ -21,7 +21,6 @@ export class TableService {
   constructor() {}
 
   getElements(): PeriodicElementInterface[] {
-    console.log(this.periodicElements);
     return this.periodicElements;
   }
 
